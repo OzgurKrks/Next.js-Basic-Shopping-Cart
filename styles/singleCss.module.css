@@ -1,0 +1,40 @@
+.img{
+    width: 400px;
+    padding-top: 20px;
+}
+
+#btn{
+    width: 350px;
+
+}
+.price{
+    width: 180px;
+    display: flex;
+    justify-content: end;
+}
+.span{
+    padding-left: 20px;
+}
+#icon{
+    color:green ;
+    font-size: 25px;
+}
+.div{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+@media  (width < 386px) {
+    #modals {
+      width: 350px;
+    }
+    #btn{
+        width: 250px;
+        margin-right: 50px;
+    
+    }
+    .img{
+        width: 300px;
+       
+    }
+  }
